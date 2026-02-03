@@ -5,39 +5,24 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   {
-    id: "frontend",
-    label: "Frontend",
-    technologies: ["React", "Next.js", "Vue.js", "Angular", "TypeScript", "Tailwind CSS", "Svelte"],
+    id: "website-dev",
+    label: "Website Development",
+    technologies: ["MERN", "Next.js", "Nest.js", "Angular", "Python + Django", "WordPress", "Shopify", "Bubble.io"],
   },
   {
-    id: "backend",
-    label: "Backend",
-    technologies: ["Node.js", "Python", "Go", "Java", "Ruby on Rails", "PHP", "GraphQL", "REST APIs"],
+    id: "app-dev",
+    label: "App Development",
+    technologies: ["React Native", "FlutterFlow"],
   },
   {
-    id: "mobile",
-    label: "Mobile",
-    technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Ionic"],
+    id: "ui-ux",
+    label: "UI/UX",
+    technologies: ["Figma", "Adobe Illustrator"],
   },
   {
-    id: "devops",
-    label: "DevOps & Cloud",
-    technologies: ["AWS", "Google Cloud", "Azure", "Docker", "Kubernetes", "Terraform", "CI/CD"],
-  },
-  {
-    id: "ai",
-    label: "AI & ML",
-    technologies: ["OpenAI", "TensorFlow", "PyTorch", "LangChain", "Hugging Face", "Computer Vision"],
-  },
-  {
-    id: "ecommerce",
-    label: "E-commerce",
-    technologies: ["Shopify", "WooCommerce", "Stripe", "Magento", "BigCommerce"],
-  },
-  {
-    id: "crm",
-    label: "CRM & Integrations",
-    technologies: ["Salesforce", "HubSpot", "Zapier", "Segment", "Twilio", "SendGrid"],
+    id: "marketing",
+    label: "Marketing",
+    technologies: ["Meta", "Google SEO"],
   },
 ];
 
